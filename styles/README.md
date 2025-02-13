@@ -17,7 +17,7 @@ Terminal-Like Text Box:
         <span class="terminal-dot green"></span>
     </div>
     <div class="terminal-body">
-        <pre><code><span class="terminal-user">turbul3nce</span><span class="terminal-host">@office</span>$ curl -k https://magicgardens.htb:5000/v2/
+        <pre><code><span class="terminal-user">turbul3nce</span><span class="terminal-host">@office</span>$ curl -k https://www.test.com
 {"errors":[{"code":"UNAUTHORIZED","message":"authentication required","detail":null}]}</code></pre>
     </div>
 </div>
