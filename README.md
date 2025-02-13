@@ -6,4 +6,5 @@ A collection of information to share about customizations I made for https://bug
 - [Hacktivity Reports](https://api.hackerone.com/hacker-resources/#hacker-resources)
 - [Floating Table of Contents](#floating-table-of-contents)
 - [Dark Mode](#Creating-Dark-Mode-for-Mediumish)
-- 
+- [HackTheBox API](https://documenter.getpostman.com/view/13129365/TVeqbmeq)
+- [Styles](/styles/terminal-box.md)
