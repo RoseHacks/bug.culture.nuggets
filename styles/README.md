@@ -8,7 +8,7 @@ A collection of custom styles that I made and found to my liking. You will see t
 
 Terminal-Like Text Box:
 
-<img src=../assets/terminal-like-box.PNG; width=100; height=60>
+<img src=../assets/terminal-like-box.PNG width=100 height=60>
 
 <b>HTML:</b>
 ```html
