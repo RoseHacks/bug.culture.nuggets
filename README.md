@@ -7,4 +7,4 @@ A collection of information to share about customizations I made for https://bug
 - [Floating Table of Contents](#floating-table-of-contents)
 - [Dark Mode](#Creating-Dark-Mode-for-Mediumish)
 - [HackTheBox API](https://documenter.getpostman.com/view/13129365/TVeqbmeq)
-- [Styles](/styles/terminal-box.md)
+- [Styles](/styles/README.md)
