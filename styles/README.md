@@ -3,6 +3,7 @@ A collection of custom styles that I made and found to my liking. You will see t
 
 ## Items
 - [Terminal-Like Text Box](#Terminal-Like-Text-Box)
+- [Dark Mode](#Dark-Mode)
 
 <br>
 
@@ -79,4 +80,10 @@ pre, code {
     border: none;
     font-size: 0.95rem;
     display: block;
-}```
+}
+```
+
+### Dark Mode
+
+- Building an implementation of "dark mode" for the Mediumish Jekyll theme. Similar to Minima's themes.
+- Will open a pull request on the official [GitHub](https://github.com/wowthemesnet/mediumish-theme-jekyll) and post steps here when complete.
