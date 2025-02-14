@@ -5,5 +5,5 @@ A collection of information to share about customizations I made for my website:
 - [Floating Table of Contents](https://afeld.github.io/bootstrap-toc/)
 - [HackTheBox API](https://documenter.getpostman.com/view/13129365/TVeqbmeq)
 - [HackerOne API](https://api.hackerone.com/hacker-resources/#hacker-resources)
-- [Dark Mode](#Creating-Dark-Mode-for-Mediumish)
+- [Dark Mode](/styles/README.md#dark-mode)
 - [Styles](/styles/README.md)
