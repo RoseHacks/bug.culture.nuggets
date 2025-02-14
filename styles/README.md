@@ -6,7 +6,7 @@ A collection of custom styles that I made and found to my liking. You will see t
 
 <br>
 
-Terminal-Like Text Box:
+### Terminal-Like Text Box:
 
 <img src=../assets/terminal-like-box.PNG>
 
