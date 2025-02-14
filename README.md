@@ -3,7 +3,7 @@ A collection of information to share about customizations I made for https://bug
 
 ## Items
 - [Hacktivity Reports](https://api.hackerone.com/hacker-resources/#hacker-resources)
-- [Floating Table of Contents](#floating-table-of-contents)
+- [Floating Table of Contents](https://afeld.github.io/bootstrap-toc/)
 - [Dark Mode](#Creating-Dark-Mode-for-Mediumish)
 - [HackTheBox API](https://documenter.getpostman.com/view/13129365/TVeqbmeq)
 - [Styles](/styles/README.md)
