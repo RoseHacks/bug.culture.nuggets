@@ -1,5 +1,5 @@
 ## Description
-A collection of information to share about customizations I made for https://bugculture.io. The site is built on Jekyll using the Mediumish theme, but heavily customized.
+A collection of information to share about customizations I made for my website: Bug Culture. The site is built on Jekyll using the Mediumish theme, but heavily customized.
 
 ## Items
 - [Hacktivity Reports](https://api.hackerone.com/hacker-resources/#hacker-resources)
