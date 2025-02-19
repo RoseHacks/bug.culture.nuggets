@@ -9,7 +9,7 @@ A collection of information to share about customizations I made for my website:
 - [Styles](/styles/README.md)
 
 ## Wiki
-A collection of information to share about customizations I made for my website: Hacker Notes. The site is built on Jekyll using the Knowledge theme, but heavily customized.
+A collection of information to share about customizations I made for my website: Hacker Notes. The site is built on Jekyll using the git-wiki-theme, but slightly customized.
 
 ## Items
 - [Git-Wiki](https://github.com/Drassil/git-wiki-theme)
