@@ -27,19 +27,20 @@ A collection of custom styles that I made and found to my liking. You will see t
 ```
 <b>CSS:</b>
 ```/
-* Terminal-Like Style */
+/* Ubuntu Terminal Style */
 .terminal-box {
-    background-color: #300a24; /* Ubuntu Terminal Light Purple */
+    background-color:  #1e1e1e; /* Light Grey */
     border-radius: 5px;
     margin: 15px 0;
     font-family: 'Courier New', monospace;
-    color: #eeeeec; /* Ubuntu Terminal Text Color */
+    color: #eeeeec; /* Terminal Text Color */
     position: relative;
     overflow: hidden; /* Prevents extra border effect */
     border: 2px solid #2c001e; /* Matches header for consistency */
+    border-width: 2px 1.4px 1.4px 1.4px; /* Top, Right, Bottom, Left */
 }
 
-/* Terminal Header (Fake MacOS-style buttons) */
+/* Terminal Header */
 .terminal-header {
     display: flex;
     gap: 5px;
@@ -63,23 +64,21 @@ A collection of custom styles that I made and found to my liking. You will see t
 
 /* Terminal Body */
 .terminal-body {
-    background-color: #1e1e1e; /* Dark Grey Terminal Background */
-    padding: 10px 15px;
-    overflow-x: auto; /* Enables horizontal scrolling */
-    white-space: nowrap; /* Prevents line wrapping */
+    background-color: #2a2a2a !important; /* Force same grey */
+    padding: 8px 11px;
+    overflow-x: auto;
+    white-space: nowrap;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+    
+/* User & Host Colors */
+.terminal-user {
+    color: #00a3ff; /* Blue for 'turbul3nce' */
+}
 
-/* Code Styling */
-pre, code {
-    background: none;
-    color: #eeeeec; /* Ubuntu Terminal Text Color */
-    padding: 0;
-    margin: 0;
-    border: none;
-    font-size: 0.95rem;
-    display: block;
+.terminal-host {
+    color: #27c93f; /* Green for '@office' */
 }
 ```
 
