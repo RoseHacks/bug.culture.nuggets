@@ -3,6 +3,7 @@ A collection of custom styles that I made and found to my liking. You will see t
 
 ## Items
 - [Terminal-Like Text Box](#Terminal-Like-Text-Box)
+- [Expansion Boxes](#Expansion-on-code-blocks)
 - [Dark Mode](#Dark-Mode)
 
 <br>
@@ -86,3 +87,97 @@ A collection of custom styles that I made and found to my liking. You will see t
 
 - Building an implementation of "dark mode" for the Mediumish Jekyll theme. Similar to Minima's themes.
 - Will open a pull request on the official [GitHub](https://github.com/wowthemesnet/mediumish-theme-jekyll) and post steps here when complete.
+
+### Expansion on Code Blocks
+
+<b>HTML:</b>
+
+```html
+<div class="collapsible-code">
+    <div class="terminal-box">
+        <div class="terminal-header">
+            <span class="terminal-dot red"></span>
+            <span class="terminal-dot yellow"></span>
+            <span class="terminal-dot green"></span>
+        </div>
+        <div class="terminal-body">
+            <pre><span class="terminal-user">rosehacks</span><span class="terminal-host">@pwny</span>$ cat predictable.txt
+This was a "hard" challenge from a HTB CTF...
+</pre>
+        </div>
+    </div>
+</div>
+```
+
+<b>Javascript:</b>
+
+```javascript
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".collapsible-code").forEach(function (block) {
+        // Check if content height exceeds max-height
+        if (block.scrollHeight > block.clientHeight) {
+            let button = document.createElement("button");
+            button.className = "expand-button";
+            button.innerText = "Expand";
+            block.appendChild(button);
+
+            button.addEventListener("click", function () {
+                if (block.classList.contains("expanded")) {
+                    block.classList.remove("expanded");
+                    button.innerText = "Expand";
+                } else {
+                    block.classList.add("expanded");
+                    button.innerText = "Collapse";
+                }
+            });
+        }
+    });
+});
+```
+
+<b>CSS:</b>
+
+```css
+/* Base styles for code blocks */
+.collapsible-code {
+    position: relative;
+    max-height: 300px; /* Set the max height before collapsing */
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+/* Expanded state (when user clicks 'Expand') */
+.collapsible-code.expanded {
+    max-height: none; /* Remove height restriction */
+}
+
+/* Expand/Collapse Button */
+.expand-button {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background: #00a3ff; /* Nice blue color */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.expand-button:hover {
+    background: #0086d1; /* Slightly darker on hover */
+}
+
+/* Add a gradient fade effect at the bottom when collapsed */
+.collapsible-code:not(.expanded)::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to bottom, rgba(42, 42, 42, 0) 0%, #2a2a2a 100%);
+}
+```
